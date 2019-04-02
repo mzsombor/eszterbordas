@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+    font-weight:normal; /* problems with FF */
+    font-family: Verdana, Geneva, sans-serif;
+}
+html {
+    height: 100%; /* important for FF */
+    width: 100%;
+}
+body {
+    height: 100%;
+    width: 100%;
+}
+#img_logo {
+    height: 15%;
+    left: 0;
+    right: 0;
+    position: fixed;
+    z-index: 3;
+    margin: auto; /* center */
+    opacity: 0.7;
+    cursor: pointer;
+}
+#img_logo:hover {
+    opacity: 0.9;
+}
+#div_side{
+    width: 20%;
+    height: 100%;
+    top: 0%;
+    float: left;
+    overflow: auto; /* add scroll if exceeds */
+    direction:rtl;
+    position:relative; /* shadow */
+    box-shadow: 1px 0px 10px black;
+}
+#div_side img {
+    width: 100%;
+    vertical-align: middle; /* remove space */
+    opacity: 0.9;
+    cursor: pointer;
+}
+#div_side img:hover {
+    opacity: 1;
+}
+#div_links {
+    height: 5%;
+    width: 20%;
+    position: fixed;
+    z-index: 3;
+    top: 2%;
+    right: 0%;
+    text-align: center;
+/*    border: 1px solid red;*/
+}
+#div_links img{
+    height: 100%;
+    width: auto;
+    margin-left: 1%;
+    margin-right: 1%;
+    opacity: 0.8;
+    cursor: pointer;
+}
+#div_links img:hover{
+    opacity: 1;
+}
+#div_container {
+    height: 100%;
+    white-space: nowrap; /* add scroll if exceeds, horizontal */
+    overflow: auto; /* !!! otherwise scroll added to window */
+}
+#div_container img {
+    height: 100%;
+    vertical-align: middle; /* otherwise img considered as text, adds bottom margin */
+}
+#div_about {
+    height: 70%;
+    width: 50%;
+    position: fixed;
+    z-index: 2;
+    top: 20%;
+    left: 25%;
+    background: white;
+    opacity: 0.98;
+    box-shadow: 1px 0px 10px black;
+    overflow: auto;
+}
+#div_about p {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 90%;
+    text-align: justify;
+    margin: 2% 4% 2% 4%;
+}
+#div_about img {
+    width:24%; 
+    margin-left: 38%;
+}
+
+@media only screen and (min-width: 150px) and (max-width: 600px) and (orientation:portrait)
+{
+    #img_logo {
+        height: 20%;
+        top: 78%;
+        opacity: 1;
+    }
+    #img_logo:hover {
+        opacity: 1;
+    }
+    #div_side {
+        position: fixed;
+        z-index: 3;
+        width: 100%;
+    }
+    #div_side li {
+        font-size: 8vw;
+        display:block;
+        width:100%;
+    }
+    #div_side img {
+        opacity: 1;
+    }
+    #div_links {
+        top: 1%;
+        left: 5%;
+        width: 90%;
+    }
+    #div_links img {
+        height: 100%;
+        width: auto;
+        cursor: pointer;
+        opacity: 1;
+    }
+    #div_about {
+        height: 70%;
+        width: 90%;
+        z-index: 4;
+        top: 10%;
+        left: 5%;
+    }
+    #div_about p {
+        font-family: Verdana, Geneva, sans-serif;
+        font-size: 90%;
+        text-align: justify;
+        margin: 5% 10% 5% 10%;
+    }
+    #div_about img {
+        width:24%; 
+        margin-left: 38%;
+    }
+}
