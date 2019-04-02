@@ -163,7 +163,7 @@ $(document).ready(function() {
             <p>She grew up in Baia Mare, Romania where she discovered her interest in photography at a very early age due to photography & other artistic backgrounds in her family. She later moved to Cluj and began studying Economics and Finance next to her ever growing passion for photography, thus being able to move to Ljubljana, Slovenia and later on to Nürtingen, Germany. Still pursuing photography, she joined the ErKE Lightpainters, this way being able to learn and shoot with professional photographers in fully equipped studios.</p>
 	<p>On-off influenced by fashion, color and elegance, Eszter enjoys working with natural lights, one-on-one with designers, models and make-up artists who share the same views. Through projects with many different professional and semi-professional models over the years, she was able to gain experience on working with an unusual scene/environment. She is mostly inspired by movements, glitches and minimalistic scenery.
             </p>
-            <p>email: candycontainer@yahoo.com</p>
+            <p>email: eszterbordas@gmail.com</p>
         </div>
         <div id="div_container">
             <div id="div_links">
