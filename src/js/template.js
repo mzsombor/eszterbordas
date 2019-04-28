@@ -6,6 +6,11 @@ $(document).ready(function() {
         //either specify lenght which goes from 0 -> length
         //or specify "order": ["img_0003.jpg", "imig_001.jpg"]
     var gallery = {
+	"Sweden": {
+            "title": "Sweden",
+            "length": "1",
+            "content": ["eszter bordas", "photography", "minimal", "malmo", "sweden", "sea"]
+        },
         "Nomad": {
             "title": "Nomad",
             "length": "8",
