@@ -99,8 +99,8 @@ body {
     margin: 2% 4% 2% 4%;
 }
 #div_about img {
-    width:30%; 
-    margin-left: 32%;
+    width:50%; 
+    margin-left: 25%;
 }
 
 @media only screen and (min-width: 150px) and (max-width: 600px) and (orientation:portrait)
