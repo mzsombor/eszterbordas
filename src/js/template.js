@@ -2,14 +2,14 @@
 $(document).ready(function() {
 
     //DEFAULT VARIABLES
-    var redirect = "Nomad"
+    var redirect = "Sweden"
         //either specify lenght which goes from 0 -> length
         //or specify "order": ["img_0003.jpg", "imig_001.jpg"]
     var gallery = {
-    "Sweden": {
+        "Sweden": {
             "title": "Sweden",
-            "length": "1",
-            "content": ["eszter bordas", "photography", "minimal", "malmo", "sweden", "sea"]
+            "length": "12",
+            "content": ["eszter bordas", "photography", "sweden", "fika", "malmo"]
         },
         "Nomad": {
             "title": "Nomad",
