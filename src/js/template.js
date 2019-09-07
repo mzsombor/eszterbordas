@@ -101,35 +101,10 @@ $(document).ready(function() {
             "length": "9",
             "content": ["Bajko Renata 2","Bajko Renata 2"]
         },
-        "Viski_Orsi": {
-            "title": "Viski Orsi",
-            "length": "18",
-            "content": ["Viski Orsi","Viski Orsi"]
-        },
         "Sea": {
             "title": "Sea",
             "length": "17",
             "content": ["Sea","Sea"]
-        },
-        "Gergely_Orsi": {
-            "title": "Gergely Orsi",
-            "length": "7",
-            "content": ["Gergely Orsi","Gergely Orsi"]
-        },
-        "Kispal_Timea": {
-            "title": "Kispal Timea",
-            "length": "12",
-            "content": ["Kispal Timea","Kispal Timea"]
-        },
-        "Bajko_Renata": {
-            "title": "Bajko Renata",
-            "length": "8",
-            "content": ["Bajko Renata","Bajko Renata"]
-        },
-        "Bajko_Reni": {
-            "title": "Bajko Renata",
-            "length": "9",
-            "content": ["Bajko Reni","Autumn"]
         }
     }
     var pad = "0000"
