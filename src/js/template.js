@@ -3,12 +3,10 @@ $(document).ready(function() {
 
     //DEFAULT VARIABLES
     var redirect = "Sweden"
-        //either specify lenght which goes from 0 -> length
-        //or specify "order": ["img_0003.jpg", "imig_001.jpg"]
     var gallery = {
         "Sweden": {
             "title": "Sweden",
-            "length": "12",
+            "length": "11",
             "content": ["eszter bordas", "photography", "sweden", "fika", "malmo"]
         },
         "Nomad": {
@@ -165,16 +163,9 @@ $(document).ready(function() {
 
     //ELEMENT - div_container
         //populate
-    if ("order" in gallery[album]) { //manual order
-        for (var i = 0; i <= gallery[album]["order"]["length"]; i++) {
-                $("<img class='img_container' alt='' src='" + gallery[album]["order"][i] + "' />").appendTo("#div_container").hide(0).delay(500).fadeIn(3000); 
-            }
-    }
-    else { //automatic order
-        for (var i = 0; i <= gallery[album]["length"]; i++) {
-            var str = "" + i
-            $("<img class='img_container' alt='' src='img_" + pad.substring(0, pad.length - str.length) + str + ".jpg' />").appendTo("#div_container").hide(0).delay(500).fadeIn(3000); //hide and fade in
-        }
+    for (var i = 0; i <= gallery[album]["length"]; i++) {
+        var str = "" + i
+        $("<img class='img_container' alt='' src='img_" + pad.substring(0, pad.length - str.length) + str + ".jpg' />").appendTo("#div_container").hide(0).delay(500).fadeIn(3000); //hide and fade in
     }
         //animate on click
     $("#div_container img").click(function(){
