@@ -74,11 +74,6 @@ $(document).ready(function() {
             "length": "26",
             "content": ["BCN","BCN"]
         },
-        "Amuse": {
-            "title": "Amuse",
-            "length": "19",
-            "content": ["Amuse","Amuse"]
-        },
         "Anett": {
             "title": "Anett",
             "length": "28",
