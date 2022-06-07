@@ -2,10 +2,15 @@
 $(document).ready(function() {
 
     //DEFAULT VARIABLES
-    var redirect = "Sweden"
+    var redirect = "Holiday_stories"
         //either specify lenght which goes from 0 -> length
         //or specify "order": ["img_0003.jpg", "imig_001.jpg"]
     var gallery = {
+        "Holiday_stories": {
+            "title": "Holiday stories",
+            "length": "11",
+            "content": ["eszter bordas", "photography", "italy", "puglia", "bari", "monopoli", "matera", "sea", "alberobello", "polignano a mare"]
+        },
         "Sweden": {
             "title": "Sweden",
             "length": "12",
