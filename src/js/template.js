@@ -2,7 +2,7 @@
 $(document).ready(function() {
 
     //DEFAULT VARIABLES
-    var redirect = "Holiday_stories"
+    var redirect = "Holiday_Stories"
         //either specify lenght which goes from 0 -> length
         //or specify "order": ["img_0003.jpg", "imig_001.jpg"]
     var gallery = {
