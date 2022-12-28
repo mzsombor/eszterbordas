@@ -71,11 +71,6 @@ $(document).ready(function() {
             "length": "35",
             "content": ["Chasing utopia","utopia, paris, france, noisy-le-grand, eszterbordas, eszter, bordas, architecture, hunger games"]
         },
-        "Clean": {
-            "title": "Clean",
-            "length": "16", 
-            "content": ["Clean","clean, andrea, jablanoczki, rain, minimal, lines, eszterbordas"]
-        },
         "BCN": {
             "title": "BCN",
             "length": "26",
