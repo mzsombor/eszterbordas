@@ -2,10 +2,15 @@
 $(document).ready(function() {
 
     //DEFAULT VARIABLES
-    var redirect = "Holiday_Stories"
-        //either specify lenght which goes from 0 -> length
+    var redirect = "Caminho_do_Sol"
+        //either specify length, goes from 0 -> length
         //or specify "order": ["img_0003.jpg", "imig_001.jpg"]
     var gallery = {
+        "Caminho_do_Sol": {
+            "title": "Caminho do Sol",
+            "length": "34",
+            "content": ["eszter bordas", "photography", "portugal", "lisbon", "porto", "ericeria", "eszter muzsai", "sea", "surf", "waves"]
+        },
         "Holiday_Stories": {
             "title": "Holiday stories",
             "length": "11",
