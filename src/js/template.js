@@ -8,7 +8,7 @@ $(document).ready(function() {
     var gallery = {
         "Caminho_do_Sol": {
             "title": "Caminho do Sol",
-            "length": "34",
+            "length": "37",
             "content": ["eszter bordas", "photography", "portugal", "lisbon", "porto", "ericeria", "eszter muzsai", "sea", "surf", "waves"]
         },
         "Holiday_Stories": {
